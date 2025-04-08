@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.headerNosaltres {
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../imatges/fonsgif.gif');
+}
+
+.titolNosaltres h1 {
+    padding-top: 5%;
+    float: left;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'LletraBold';
+    font-size: 100px;
+    font-weight: bolder;
+    position: absolute;
+}
+
+.titolNosaltres h2 {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: 'LletraBold';
+}
+
+.titolNosaltres h3 {
+    text-align: center;
+    color: black;
+    font-family: 'LletraRegular';
+    font-weight: 500;
+}
+
+.text-nosaltres {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    margin: 50px 0 50px 0;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 140px;
+    row-gap: 80px;
+    grid-template-columns: auto auto auto;
+    padding: 0 200px 100px 200px;
+}
+
+.grid-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 150px;
+    transition: transform .2s;
+}
+
+.grid-container img:hover {
+    transform: scale(1.1);
+}
+
+.grid-item {
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+}
+
+.grid-item:hover {
+    background-color: rgb(244, 244, 244);
+}
+
+.rolEmpresa {
+    color: purple;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+.rolEmpresa + p {
+    text-align: left;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.grid-item h2 {
+    text-align: center;
+    font-size: 23px;
+    padding: 0px;
+}
